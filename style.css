@@ -1,0 +1,36 @@
+ul {
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: inline-block;
+  padding-right:2rem;
+}
+
+.left{
+  float: left;
+  display: inline-block;
+}
+
+.right{
+  float: right;
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+img{
+  margin-left: 5rem;
+  width: 90%;
+}
